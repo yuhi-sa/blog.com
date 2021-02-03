@@ -1,7 +1,7 @@
 # blog
 [ブログ](https://yuhi-sa.github.io/)の管理用フォルダ
 - Hugo + github Pagesで作成
-- [Beautiful Hugo](https://themes.gohugo.io/beautifulhugo/)!
+- [Beautiful Hugo](https://themes.gohugo.io/beautifulhugo/)
 
 ## hugo 実行方法
 ローカルのサーバーで確認
