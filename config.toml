@@ -1,6 +1,6 @@
-baseurl = "https://uzimihsr.github.io"
-DefaultContentLanguage = "en"
-title = "meow.md"
+baseurl = "https://yuhi-sa.github.io/"
+DefaultContentLanguage = "ja"
+title = "とまとまとブログ"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -10,9 +10,9 @@ pygmentsCodefencesGuessSyntax = true
 author = false
 
 [Params]
-  subtitle = "にゃーん"
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  subtitle = "yuhi-sa"
+  # logo = "img/icon.JPG" # Expecting square dimensions
+  favicon = "img/icon.JPG"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
@@ -23,11 +23,11 @@ author = false
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
+  googleAnalytics = "G-LN6QP6VVM3"
 
 [Author]
-  name = "uzimihsr"
-  github = "uzimihsr"
-  twitter = "uzimihsr"
+  name = "yuhi-sa"
+  github = "yuhi-sa"
 
 [[menu.main]]
   name = "Blog"
@@ -41,5 +41,5 @@ author = false
 
 [[menu.main]]
   name = "About"
-  url = "page/about/"
+  url = "posts/about"
   weight = 3

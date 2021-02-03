@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on meow.md</title>
-    <link>https://uzimihsr.github.io/tags/</link>
-    <description>Recent content in Tags on meow.md</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://uzimihsr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags on とまとまとブログ</title>
+    <link>https://yuhi-sa.github.io/tags/</link>
+    <description>Recent content in Tags on とまとまとブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 Aug 2020 15:17:23 +0900</lastBuildDate><atom:link href="https://yuhi-sa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://yuhi-sa.github.io/tags/python/</link>
+      <pubDate>Sun, 16 Aug 2020 15:17:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ros</title>
+      <link>https://yuhi-sa.github.io/tags/ros/</link>
+      <pubDate>Sun, 16 Aug 2020 15:17:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
