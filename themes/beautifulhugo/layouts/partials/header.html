@@ -1,4 +1,5 @@
 {{- partial "load-photoswipe-theme.html" . }}
+{{ partial "add_mathjax.html" . }}
 
 {{ if .IsHome }}
   {{ if .Site.Params.homeTitle }}{{ $.Scratch.Set "title" .Site.Params.homeTitle }}{{ else }}{{ $.Scratch.Set "title" .Site.Title }}{{ end }}

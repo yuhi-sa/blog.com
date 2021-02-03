@@ -1,5 +1,5 @@
 baseurl = "https://yuhi-sa.github.io/"
-DefaultContentLanguage = "ja"
+DefaultContentLanguage = "en"
 title = "とまとまとブログ"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
