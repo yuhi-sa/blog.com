@@ -8,3 +8,9 @@ draft: false
 
 地方国立大の大学院生．  
 学んだことをつれづれなるままに書いています．
+
+- Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
+- Github：[yuhi-sa](https://github.com/yuhi-sa)
+- Atcoder：[yuhisaiki](https://atcoder.jp/users/yuhisaiki)
+- conpass：[yuhi-sa](https://connpass.com/user/yuhi-sa/)
+- 問い合わせ：[google フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdU2lizo_DhioQUFzlnf9YCmT-veZ-m4Hl8m1NDBRWSsQ2nIw/viewform?usp=sf_link)
