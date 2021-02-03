@@ -1,5 +1,5 @@
 # blog
-![ブログ](https://yuhi-sa.github.io/)の管理用フォルダ
+[ブログ](https://yuhi-sa.github.io/)の管理用フォルダ
 - Hugo + github Pagesで作成
 - [Beautiful Hugo](https://themes.gohugo.io/beautifulhugo/)!
 
