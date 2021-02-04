@@ -8,6 +8,7 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 author = false
+googleAnalytics = "G-LN6QP6VVM3"
 
 [Params]
   subtitle = "yuhi-sa"
@@ -23,7 +24,7 @@ author = false
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-  googleAnalytics = "G-LN6QP6VVM3"
+
 
 [Author]
   name = "yuhi-sa"
