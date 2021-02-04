@@ -40,4 +40,31 @@ publicフォルダをgithub.ioのフォルダにpush
 参考：[MathJaxを用いてHugoで数式を表現する](https://somei-tec.com/article/computer-science/framework/hugo/hugo_mathjax/)
 
 # google Analytics
-Google Analyticsとの連携のための組み込みテンプレート({{ template "_internal/google_analytics_async.html" . }})が古いため変更
+config.tomlに追加
+```
+googleAnalytics = "測定ID"
+
+```
+Google Analyticsとの連携のための組み込みテンプレート({{ template "_internal/google_analytics_async.html" . }})が古いため変更を追加  
+
+layouts/partials/head.html
+```
+- {{ template "_internal/google_analytics_async.html" . }}
++ {{- partial "analytics" . -}}
+```
+layouts/partials/analytics.htmlを作成
+```
+{{ if not .Site.IsServer }}
+{{ with .Site.GoogleAnalytics }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', '{{ . }}');
+</script>
+{{ end }}
+{{ end }}
+```
+参考：[Hugoで未だ対応していないgtag.jsを利用して Googleアナリティクスする](https://qiita.com/momotaro98/items/4de7934fd79cd6b34fce)
