@@ -38,3 +38,6 @@ publicフォルダをgithub.ioのフォルダにpush
 {{ partial "add_mathjax.html" . }}
 ```
 参考：[MathJaxを用いてHugoで数式を表現する](https://somei-tec.com/article/computer-science/framework/hugo/hugo_mathjax/)
+
+# google Analytics
+Google Analyticsとの連携のための組み込みテンプレート({{ template "_internal/google_analytics_async.html" . }})が古いため変更
