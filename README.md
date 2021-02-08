@@ -68,3 +68,31 @@ layouts/partials/analytics.htmlを作成
 {{ end }}
 ```
 参考：[Hugoで未だ対応していないgtag.jsを利用して Googleアナリティクスする](https://qiita.com/momotaro98/items/4de7934fd79cd6b34fce)
+
+## Sitemapを作成
+layouts/sitemap.xmlを作成
+```
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{ range .Data.Pages }}{{ if .IsPage }}
+<url>
+  <loc>{{ .Permalink }}</loc>
+  {{ if not .Lastmod.IsZero }}
+  <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+  <changefreq>weekly</changefreq>
+  {{ end }}
+</url>
+{{ end }}{{ end }}
+</urlset>
+```
+layouts/robots.txtを作成
+```
+Sitemap : {{ $.Site.BaseURL }}sitemap.xml
+```
+config.tomlを編集
+```
+enableRobotsTXT = true
+```
+url/sitemap.xmlで表示される．
+https://yuhi-sa.github.io/sitemap.xml
+
+参考：[XMLサイトマップの作り方](https://takaken.tokyo/dev/hugo/sitemaps/hugo-create-sitemaps/)

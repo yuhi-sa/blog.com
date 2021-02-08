@@ -9,6 +9,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 author = false
 googleAnalytics = "G-LN6QP6VVM3"
+enableRobotsTXT = true
 
 [Params]
   subtitle = "yuhi-sa"
