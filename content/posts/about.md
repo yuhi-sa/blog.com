@@ -5,11 +5,22 @@ draft: false
 ---
 <!--more-->
 
-地方国立大の大学院生．  
-学んだことをつれづれなるままに書いています．
+## よく使う言語
+[![](https://raw.githubusercontent.com/yuhi-sa/yuhi-sa/main/profile-summary-card-output/default/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
+## 興味があること・勉強したいこと
+基本情報・応用情報/Java/インフラ/簿記/FP/機械学習系
+
+## 所属
+- 2016-2020：広島大学 工学部第二類  
+- 2020-2022：奈良先端科学技術大学院大学 先端科学技術研究科  
+- 2022-：大手Web系企業(予定)  
+
+## アカウント
 - Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
 - Github：[yuhi-sa](https://github.com/yuhi-sa)
 - Atcoder：[yuhisaiki](https://atcoder.jp/users/yuhisaiki)
 - conpass：[yuhi-sa](https://connpass.com/user/yuhi-sa/)
-- 問い合わせ：[google フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdU2lizo_DhioQUFzlnf9YCmT-veZ-m4Hl8m1NDBRWSsQ2nIw/viewform?usp=sf_link)
+
+## 問い合わせ
+- [google フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdU2lizo_DhioQUFzlnf9YCmT-veZ-m4Hl8m1NDBRWSsQ2nIw/viewform?usp=sf_link)

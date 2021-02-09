@@ -1,6 +1,6 @@
 baseurl = "https://yuhi-sa.github.io/"
 DefaultContentLanguage = "en"
-title = "とまとまとブログ"
+title = "@yuhi-sa"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -12,7 +12,7 @@ googleAnalytics = "G-LN6QP6VVM3"
 enableRobotsTXT = true
 
 [Params]
-  subtitle = "yuhi-sa"
+  # subtitle = "yuhi-sa"
   # logo = "img/icon.JPG" # Expecting square dimensions
   favicon = "img/icon.JPG"
   dateFormat = "January 2, 2006"
