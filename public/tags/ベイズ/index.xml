@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ベイズ on とまとまとブログ</title>
+    <link>https://yuhi-sa.github.io/tags/%E3%83%99%E3%82%A4%E3%82%BA/</link>
+    <description>Recent content in ベイズ on とまとまとブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 16 Mar 2021 15:00:23 +0900</lastBuildDate><atom:link href="https://yuhi-sa.github.io/tags/%E3%83%99%E3%82%A4%E3%82%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ラグランジュの未定数法</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/7/</link>
+      <pubDate>Tue, 16 Mar 2021 15:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/7/</guid>
+      <description>制約付き最適化のうち，制約条件が等式で合わされる場合によく用いられるのがラグランジュの未定乗数法である．
+２接線が重なる点を求めるには勾配を求めることが有効である． 勾配は勾配作用素$\nabla$を用いて以下のように定義される．
+$$\nabla f = (\frac{df}{dx}, \frac{df}{dy})$$
+目的関数fを制約gのもとで解くことくを考えると．
+$$\nabla f(\mu) = \lambda \nabla g(\mu)$$
+が成り立ち，$\mu$が制約付き最適化の答えの候補となる． ここで，$\lambda$はラグランジュ未定乗数と呼ばれる．
+ラグランジュ関数を以下のように定義すると，
+$$\mathcal{L}(\mu,\lambda)=f(\mu)-\lambda g(\mu)$$
+ラグランジュの未定乗数法は，$\nabla \mathcal{L}=0$を満たす$\mu$と$\lambda$，すなわちラグランジュ関数の勾配が0になる変数の値を見つけることとなる．
+例1 $g(x,y)=2x+y+1=0$という制約条件を満たすx,yで$f(x,y)=x^2+y^2$を最小化するものを求める．
+$$\nabla f(x,y) = (2x,2y)$$
+$$\lambda \nabla g(x,y) = (2\lambda, \lambda)$$
+よって，
+ $2x = 2\lambda$ $2y = \lambda$  さらに$g(x,y)=2x+y+1=0$を用いて計算すると，$x=-2/5,y=-1/5,$となる．
+多項分布の最尤推定 ラグランジュの未定乗数法を多項分布の最尤推定に利用する．この場合，fは多項分布の対数，gは制約からくる$\sum_{j=1}^k\mu_j-1$となる．
+$$f= \frac{(\sum_{j=1}^kx_j)!}{\Pi_{j=1}^kx_j!}\Pi_{j=1}^k\mu_j^{x_j}$$
+$$g=\sum_{j=1}^k\mu_j-1$$
+ラグランジュの未定乗数法より
+$$\nabla (\frac{(\sum_{j=1}^kx_j)!}{\Pi_{j=1}^kx_j!}\Pi_{j=1}^k\mu_j^{x_j})=\lambda \nabla(\sum_{j=1}^k\mu_j-1)$$
+両辺を$\hat{\mu}_h$で微分すると
+$$\frac{x_h}{\hat{\mu}_h}=\lambda$$
+制約条件を用いて$\lambda$を求めると
+$$\lambda = \sum_{h=1}^k \hat{\mu}_h=m(試行の総和)$$
+したがって，
+$$\hat{\mu}_j=\frac{x_j}{\lambda}= \frac{x_j}{m}$$
+参考  手塚 太郎，&amp;quot;しくみがわかるベイズ統計と機械学習&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>二項分布とその仲間たち</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/6/</link>
+      <pubDate>Tue, 16 Mar 2021 14:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ベイズ推定</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/5/</link>
+      <pubDate>Tue, 16 Mar 2021 13:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>正規分布における最尤推定</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/4/</link>
+      <pubDate>Tue, 16 Mar 2021 13:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>正規分布(ガウス分布)</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/3/</link>
+      <pubDate>Mon, 15 Mar 2021 13:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>確率の基礎</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/2/</link>
+      <pubDate>Mon, 15 Mar 2021 13:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>統計学と機械学習の用語</title>
+      <link>https://yuhi-sa.github.io/posts/202103bayes/1/</link>
+      <pubDate>Mon, 15 Mar 2021 13:00:23 +0900</pubDate>
+      
+      <guid>https://yuhi-sa.github.io/posts/202103bayes/1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
