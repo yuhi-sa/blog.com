@@ -1,6 +1,6 @@
 baseurl = "https://yuhi-sa.github.io/"
 DefaultContentLanguage = "en"
-title = "とまとまとブログ"
+title = "yuhi-sa"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"

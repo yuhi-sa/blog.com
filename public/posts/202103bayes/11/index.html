@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>共役事前分布 - yuhi-sa</title>
+  <title>変分ベイズ - yuhi-sa</title>
   <meta name="author" content="yuhi-sa"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -43,8 +43,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/yuhi-sa.github.io\/posts\/202103bayes\/8\/",
-          "name": "共役事前分布"
+          "@id": "https:\/\/yuhi-sa.github.io\/posts\/202103bayes\/11\/",
+          "name": "変分ベイズ"
         }
     }]
 }
@@ -55,15 +55,15 @@
   "author": {
     "name" : "yuhi-sa"
   },
-  "headline": "共役事前分布",
+  "headline": "変分ベイズ",
   "description" : "",
   "inLanguage" : "en",
-  "wordCount":  35 ,
-  "datePublished" : "2021-03-16T16:00:23",
-  "dateModified" : "2021-03-16T16:00:23",
+  "wordCount":  30 ,
+  "datePublished" : "2021-03-18T10:00:23",
+  "dateModified" : "2021-03-18T10:00:23",
   "image" : "https:\/\/yuhi-sa.github.io\/",
   "keywords" : [ "しくみがわかるベイズ統計と機械学習" ],
-  "mainEntityOfPage" : "https:\/\/yuhi-sa.github.io\/posts\/202103bayes\/8\/",
+  "mainEntityOfPage" : "https:\/\/yuhi-sa.github.io\/posts\/202103bayes\/11\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/yuhi-sa.github.io\/",
@@ -77,12 +77,12 @@
 }
 </script>
 
-<meta property="og:title" content="共役事前分布" />
-<meta property="og:url" content="https://yuhi-sa.github.io/posts/202103bayes/8/" />
+<meta property="og:title" content="変分ベイズ" />
+<meta property="og:url" content="https://yuhi-sa.github.io/posts/202103bayes/11/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="yuhi-sa" />
 
-  <meta name="twitter:title" content="共役事前分布" />
+  <meta name="twitter:title" content="変分ベイズ" />
   <meta name="twitter:card" content="summary" />
   <link href='https://yuhi-sa.github.io/img/icon.JPG' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.81.0" />
@@ -234,7 +234,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
               
-                <h1>共役事前分布</h1>
+                <h1>変分ベイズ</h1>
               
               
                 <hr class="small">
@@ -254,36 +254,25 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>事後分布の式がシンプルになるように，以下の共役事前分布を用いることが標準的となっている．</p>
-<h1 id="ディリクレ分布">ディリクレ分布</h1>
-<p>多項分布に対する共役事前分布はディリクレ分布$\mathcal{D}(\mu|\alpha)$である．</p>
-<p>$$\mathcal{D}(\mu|\alpha)= \frac{\Gamma(\sum_{j=1}^{k}\alpha_j)}{\Pi_{j=1}^k\Gamma(\alpha_j)}\Pi_{j=1}^k\mu_j^{\alpha_j-1}$$</p>
-<p>ここで，$\alpha$はディリクレ分布のパラメータであり，$\Gamma$は以下に示すガンマ関数である．</p>
-<p>$$\Gamma(x)=\int_0^\infty t^{x-1}e^{-t}dt$$</p>
-<h1 id="ベータ分布">ベータ分布</h1>
-<p>二項分布の事前分布として使えるのがベータ分布である．</p>
-<p>$$p(\mu|a,b)=\frac{1}{B(a,b)}\mu^{\alpha-1}(1-\mu)^{b-1}$$</p>
-<p>ここで，$B(a,b)$は2次元の多項ベータ関数を表す．</p>
-<p>$$B(a,b)=\int_0^1\mu^{a-1}(1-\mu)^{b-1}d\mu$$</p>
-<h1 id="ガンマ分布">ガンマ分布</h1>
-<p>観測値が正規分布$\mathcal{N}(x|\mu,\sigma^2)$に従うとする時，その平均パラメータ$\mu$に対してベイズ推定を行うための共役事前分布としては正規分布$\mathcal{N}(\mu|\Psi,\rho^2)$が使える．
-分散$\sigma^2$に対してベイズ推定を行う場合を考える．
-$\sigma^2$の事前分布として正規分布$\mathcal{N}(\sigma^2|\phi,\eta^2)$を使うと，事後分布は事前分布と同じ関係式にならない．(理由は参考資料のp97)
-そこで，分散の逆数$\lambda=1/\sigma^2$を精度パラメータとよび，精度パラメータの共役事前分布として，ガンマ分布$\mathcal{G}(\lambda|\kappa,\xi)$を用いる．</p>
-<p>$$\mathcal{G}(\lambda|\kappa,\xi)=\frac{\xi^\kappa}{\Gamma(\kappa)}\lambda^{\kappa-1}\exp(-\xi\lambda)$$</p>
-<p>$\kappa$は形状パラメータ，$\xi$はレートパラメータと呼ばれる．</p>
-<h2 id="ガンマ分布の余談">ガンマ分布の余談</h2>
-<p>$\kappa=1$のガンマ分布は指数分布と一致する．</p>
-<p>$$\mathcal{G}(\lambda|1,\xi)=\frac{\xi}{\Gamma(1)}\exp(-\xi\lambda)=\xi\exp(-\xi\lambda)$$</p>
-<p>$\xi=\frac{1}{2}$に設定し$\nu=2\kappa$で定義されるパラメータで表したものは$\chi^2$分布と呼ばれる．</p>
-<p>$$\chi^2(\lambda|\nu)=\mathcal{G}(\lambda|\frac{\nu}{2},\frac{1}{2})$$</p>
-<h1 id="正規-ガンマ分布">正規-ガンマ分布</h1>
-<p>正規分布$\mathcal{N}(\mu,\lambda^{-1})$のパラメーターについて平均$\mu$は正規分布，精度$\lambda$についてはガンマ分布が事前分布として使えることを述べた．
-今回は，$\mu$と$\lambda$を同時に求めることを考える．
-$\mu$と$\lambda$の同時分布を正規-ガンマ分布$\mathcal{NG}$とよぶ．</p>
-<p>$$\mathcal{NG}(\mu,\lambda|\psi,\beta,\kappa,\xi)=\mathcal{N}(\mu|\psi,(\beta \lambda)^{-1}\mathcal{G}(\lambda|\kappa,\xi)$$</p>
-<h1 id="一般的な確率分布のパラメータとその共益事前分布">一般的な確率分布のパラメータとその共益事前分布</h1>
-<p><img src=".././%E5%85%B1%E5%BD%B9%E4%BA%8B%E5%89%8D%E5%88%86%E5%B8%83.png" alt="共役事前分布"></p>
+        <p>変分ベイズは，EMアルゴリズムと同様に変分下界を使いつつパラメータ分布も考えることでベイズ的な拡張も行う手法である．
+EMアルゴリズムではパラメータ$\theta$を引数とする変分下界$\mathcal{B}(\theta,\hat{\theta})$を考えたが変分ベイズでは変分下界の引数として近似分布qを考える．$\mathcal{B}(q)$を最大化する近似分布$q$を求めることが変分ベイズの目的となる．</p>
+<ul>
+<li>変分：関数による汎関数の微分</li>
+<li>汎関数：関数を引数とする関数</li>
+</ul>
+<h1 id="変分ベイズにおける変分下界">変分ベイズにおける変分下界</h1>
+<h2 id="emアルゴリズムにおける変分下界">EMアルゴリズムにおける変分下界</h2>
+<p>$$\mathcal{B}(\theta,\hat{\theta})=\log p(x|\theta)-\mathcal{D}(p(z|\hat{\theta})||p(z|x,\theta))$$</p>
+<h2 id="変分ベイズにおける変分下界-1">変分ベイズにおける変分下界</h2>
+<p>$$\mathcal{B}(q)=\log p(x) - \mathcal{D}(q(w)||p(w|x))$$</p>
+<p>変分ベイズではパラメータと潜在変数をまとめて$w$で表すため，変分下界の引数として$\theta,\hat{\theta}$を使うことができない．そこで近似分布$q$自体を引数とする．
+$x$は観測済みであるため，$p(x)$は定数である．変分下界を大きくするためには，近似分布$q(w)$を真の分布$p(w|x)$に近づけることでKLダイバージェンス$\mathcal{D}(q(w)||p(w|x))$を小さくする必要がある．</p>
+<h3 id="変分下界の式変形">変分下界の式変形</h3>
+<p>変分ベイズにおける変分下界を式変形すると以下のようになる．</p>
+<p>$$\mathcal{B}(q)=\int q(w)\log \frac{p(x,w)}{q(w)}dw$$</p>
+<p>よって期待値の形で以下のように表すことができる．</p>
+<p>$$\mathcal{B}(q)=\mathbb{E}<em>{q(w)}[\log p(x,w)] - \mathbb{E}</em>{q(w)}[\log q(w)]$$</p>
+<p>以上より，2つの対数尤度の差の最小化問題として扱うことができる．</p>
 <h1 id="参考">参考</h1>
 <ul>
 <li>手塚 太郎，&quot;<a href="https://amzn.to/3cCILQM">しくみがわかるベイズ統計と機械学習</a>&quot;</li>
@@ -307,42 +296,42 @@ $\mu$と$\lambda$の同時分布を正規-ガンマ分布$\mathcal{NG}$とよぶ
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f8%2f&amp;text=%e5%85%b1%e5%bd%b9%e4%ba%8b%e5%89%8d%e5%88%86%e5%b8%83&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f11%2f&amp;text=%e5%a4%89%e5%88%86%e3%83%99%e3%82%a4%e3%82%ba&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f8%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f11%2f" target="_blank" title="Share on Facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f8%2f&amp;title=%e5%85%b1%e5%bd%b9%e4%ba%8b%e5%89%8d%e5%88%86%e5%b8%83" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f11%2f&amp;title=%e5%a4%89%e5%88%86%e3%83%99%e3%82%a4%e3%82%ba" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f8%2f&amp;title=%e5%85%b1%e5%bd%b9%e4%ba%8b%e5%89%8d%e5%88%86%e5%b8%83" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f11%2f&amp;title=%e5%a4%89%e5%88%86%e3%83%99%e3%82%a4%e3%82%ba" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f8%2f&amp;title=%e5%85%b1%e5%bd%b9%e4%ba%8b%e5%89%8d%e5%88%86%e5%b8%83" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f11%2f&amp;title=%e5%a4%89%e5%88%86%e3%83%99%e3%82%a4%e3%82%ba" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f8%2f&amp;description=%e5%85%b1%e5%bd%b9%e4%ba%8b%e5%89%8d%e5%88%86%e5%b8%83" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fyuhi-sa.github.io%2fposts%2f202103bayes%2f11%2f&amp;description=%e5%a4%89%e5%88%86%e3%83%99%e3%82%a4%e3%82%ba" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -368,11 +357,11 @@ $\mu$と$\lambda$の同時分布を正規-ガンマ分布$\mathcal{NG}$とよぶ
                 
                     <li><a href="/posts/202103bayes/12/">マルコフ連鎖モンテカルロ法(MCMC)</a></li>
                 
-                    <li><a href="/posts/202103bayes/11/">変分ベイズ</a></li>
-                
                     <li><a href="/posts/202103bayes/10/">EMアルゴリズム2(変分下界とKLダイバージェンス)</a></li>
                 
                     <li><a href="/posts/202103bayes/9/">EMアルゴリズム</a></li>
+                
+                    <li><a href="/posts/202103bayes/8/">共役事前分布</a></li>
                 
               </ul>
 
@@ -384,12 +373,12 @@ $\mu$と$\lambda$の同時分布を正規-ガンマ分布$\mathcal{NG}$とよぶ
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://yuhi-sa.github.io/posts/202103bayes/7/" data-toggle="tooltip" data-placement="top" title="ラグランジュの未定数法">&larr; Previous Post</a>
+              <a href="https://yuhi-sa.github.io/posts/202103bayes/10/" data-toggle="tooltip" data-placement="top" title="EMアルゴリズム2(変分下界とKLダイバージェンス)">&larr; Previous Post</a>
             </li>
           
           
             <li class="next">
-              <a href="https://yuhi-sa.github.io/posts/202103bayes/9/" data-toggle="tooltip" data-placement="top" title="EMアルゴリズム">Next Post &rarr;</a>
+              <a href="https://yuhi-sa.github.io/posts/202103bayes/12/" data-toggle="tooltip" data-placement="top" title="マルコフ連鎖モンテカルロ法(MCMC)">Next Post &rarr;</a>
             </li>
           
         </ul>
