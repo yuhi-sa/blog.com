@@ -42,8 +42,8 @@ enableRobotsTXT = true
   weight = 2
 
 [[menu.main]]
-  name = "Quotations"
-  url = "posts/Quotations"
+  name = "quotations"
+  url = "posts/quotations"
   weight = 3
 
 [[menu.main]]
