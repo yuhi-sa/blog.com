@@ -6,7 +6,11 @@ draft: false
 <!--more-->
 
 ## よく使う言語
-<img src="https://github.com/yuhi-sa/github_cards/blob/master/cards/repos.gif?raw=true" width="50%"><img src="https://github.com/yuhi-sa/github_cards/blob/master/cards/top.gif?raw=true" width="50%">
+### Repos per Language
+![Repos per Language](https://github.com/yuhi-sa/github_cards/blob/master/cards/repos.gif?raw=true)
+
+### Top Size Repos
+![Top Size Repos](https://github.com/yuhi-sa/github_cards/blob/master/cards/top.gif?raw=true)
 
 ## 興味があること・勉強したいこと
 基本情報・応用情報/Java/インフラ/簿記/FP/機械学習系
