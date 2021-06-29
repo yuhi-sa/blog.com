@@ -6,7 +6,7 @@ draft: false
 <!--more-->
 
 ## よく使う言語
-[![](https://raw.githubusercontent.com/yuhi-sa/yuhi-sa/main/profile-summary-card-output/default/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+<img src="https://github.com/yuhi-sa/github_cards/blob/master/cards/repos.gif?raw=true" width="50%"><img src="https://github.com/yuhi-sa/github_cards/blob/master/cards/top.gif?raw=true" width="50%">
 
 ## 興味があること・勉強したいこと
 基本情報・応用情報/Java/インフラ/簿記/FP/機械学習系
