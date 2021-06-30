@@ -1,9 +1,11 @@
-name: Create Card
+name: Publish Post
 
 on:
   push:
     branches: [ master ]
   pull_request:
+    branches: [ master ]
+  fork:
     branches: [ master ]
 
 jobs:
