@@ -2,17 +2,11 @@ name: Publish Post
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  fork:
-    branches: [ master ]
+    branches:
+      - main
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
+  deploy:
     steps:
     - uses: actions/checkout@v2
 
