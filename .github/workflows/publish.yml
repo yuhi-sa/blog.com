@@ -1,11 +1,15 @@
-name: Publish Post
+name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     steps:
     - uses: actions/checkout@v2
 
