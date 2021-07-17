@@ -6,17 +6,18 @@ draft: false
 <!--more-->
 
 ## 興味があること・勉強したいこと
-応用情報/Java/インフラ/簿記/FP/機械学習系
+応用情報/Java/React/DB/OS/ネットワーク
 
 ## 所属
 - 2016-2020：広島大学 工学部第二類  
 - 2020-2022：奈良先端科学技術大学院大学 先端科学技術研究科 
 
 ## アカウント
-- Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
 - Github：[yuhi-sa](https://github.com/yuhi-sa)
+- Twitter：[yuhi_sa1192](https://twitter.com/yuhi_sa1192)
 - Atcoder：[yuhisaiki](https://atcoder.jp/users/yuhisaiki)
+- Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
 - conpass：[yuhi-sa](https://connpass.com/user/yuhi-sa/)
 
-## 問い合わせ
+## 連絡先
 - [google フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdU2lizo_DhioQUFzlnf9YCmT-veZ-m4Hl8m1NDBRWSsQ2nIw/viewform?usp=sf_link)
