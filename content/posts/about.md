@@ -14,8 +14,6 @@ draft: false
 
 ## アカウント
 - Github：[yuhi-sa](https://github.com/yuhi-sa)
-- Facebook：[佐伯雄飛](https://www.facebook.com/profile.php?id=100071604026170)
-- Linkedin：[佐伯雄飛](https://www.linkedin.com/in/yuhi-sa/)
 - Twitter：[yuhi_sa1192](https://twitter.com/yuhi_sa1192)
 - Atcoder：[yuhisaiki](https://atcoder.jp/users/yuhisaiki)
 - Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
