@@ -27,6 +27,7 @@ draft: false
 - Github：[yuhi-sa](https://github.com/yuhi-sa)
 - Twitter：[yuhi_sa1192](https://twitter.com/yuhi_sa1192)
 - Atcoder：[yuhisaiki](https://atcoder.jp/users/yuhisaiki)
+- Codeforces：[yuhi-sa](https://codeforces.com/profile/yuhi-sa)
 - Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
 - Kaggle：[yuhi-sa](https://www.kaggle.com/yuhisa)
 - Conpass：[yuhi-sa](https://connpass.com/user/yuhi-sa/)
