@@ -17,7 +17,8 @@ draft: false
 - Twitter：[yuhi_sa1192](https://twitter.com/yuhi_sa1192)
 - Atcoder：[yuhisaiki](https://atcoder.jp/users/yuhisaiki)
 - Qiita：[yuhi-sa](https://qiita.com/yuhi-sa)
-- conpass：[yuhi-sa](https://connpass.com/user/yuhi-sa/)
+- Kaggle：[yuhi-sa](https://www.kaggle.com/yuhisa)
+- Conpass：[yuhi-sa](https://connpass.com/user/yuhi-sa/)
 
 ## 連絡先
 - [google フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdU2lizo_DhioQUFzlnf9YCmT-veZ-m4Hl8m1NDBRWSsQ2nIw/viewform?usp=sf_link)
