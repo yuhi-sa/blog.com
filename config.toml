@@ -48,5 +48,5 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "About"
-  url = "https://profile-lime.vercel.app/"
+  url = "https://profile-nu-gold.vercel.app"
   weight = 4
