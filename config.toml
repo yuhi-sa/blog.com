@@ -50,3 +50,8 @@ enableRobotsTXT = true
   name = "About"
   url = "https://profile-nu-gold.vercel.app"
   weight = 4
+
+[[menu.main]]
+  name = "privacy policy"
+  url = "posts/privacy_policy"
+  weight = 5
