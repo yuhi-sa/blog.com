@@ -1,5 +1,5 @@
 baseurl = "https://yuhi-sa.github.io/"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ja"
 title = "yuhi-sa"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
@@ -10,6 +10,12 @@ pygmentsCodefencesGuessSyntax = true
 author = false
 googleAnalytics = "G-LN6QP6VVM3"
 enableRobotsTXT = true
+
+[languages]
+  [languages.ja]
+    languageName = "Japanese"
+  [languages.en]
+    languageName = "English"
 
 [Params]
   # subtitle = "yuhi-sa"
@@ -25,7 +31,6 @@ enableRobotsTXT = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-
 
 [Author]
   name = "yuhi-sa"
