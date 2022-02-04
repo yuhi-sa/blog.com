@@ -5,7 +5,7 @@ draft: false
 ---
 <!--more-->
 勉強したことなどをメモしています．  
-間違いなどあれば教えていただければ幸いです．
+間違いあれば教えていただければ幸いです．
 # 連絡先
 - [Google Form](https://forms.gle/jVEM3XQQ6jgRwEwv8)
 # その他
