@@ -47,16 +47,11 @@ enableRobotsTXT = true
   weight = 2
 
 [[menu.main]]
-  name = "quotations"
-  url = "posts/quotations"
-  weight = 3
-
-[[menu.main]]
   name = "About"
-  url = "https://profile-yuhi-sa.vercel.app"
-  weight = 4
+  url = "posts/about"
+  weight = 3
 
 [[menu.main]]
   name = "privacy policy"
   url = "posts/privacy_policy"
-  weight = 5
+  weight = 4
