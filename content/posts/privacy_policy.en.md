@@ -1,5 +1,5 @@
 ---
-title: "プライバシーポリシー"
+title: "Privacy Policy"
 date: 2020-08-16T15:17:23+09:00
 draft: false
 ---
