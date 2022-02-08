@@ -7,7 +7,7 @@ draft: false
 I'm writing an article about what I've learned.   
 If there are any mistakes, please let me know.
 # Contact
-- Mail：[elm-spelt07@icloud.com](mailto:elm-spelt07@icloud.com)
 - Google Form：[forms.gle](https://forms.gle/jVEM3XQQ6jgRwEwv8)
+- Mail：[elm-spelt07@icloud.com](mailto:elm-spelt07@icloud.com)
 # Others
 - [Profile](https://profile-yuhi-sa.vercel.app)
