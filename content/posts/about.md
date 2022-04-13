@@ -9,5 +9,4 @@ draft: false
 # 連絡先
 - Google Form：[forms.gle](https://forms.gle/jVEM3XQQ6jgRwEwv8)
 # その他
-- [プロフィール](https://profile-yuhi-sa.vercel.app)
 - [いいなって思った言葉メモ](https://yuhi-sa.github.io/posts/quotations/)
