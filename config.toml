@@ -34,7 +34,6 @@ enableRobotsTXT = true
 
 [Author]
   name = "yuhi-sa"
-  github = "yuhi-sa"
 
 [[menu.main]]
   name = "Blog"
