@@ -9,4 +9,5 @@ draft: false
 # 連絡先
 - Google Form：[forms.gle](https://forms.gle/jVEM3XQQ6jgRwEwv8)
 # その他
-- [いいなって思った言葉メモ](https://yuhi-sa.github.io/posts/quotations/)
+- [今考えているやりたいこととか](https://yuhi-sa.github.io/posts/todo)
+- [いいなって思った言葉メモ](https://yuhi-sa.github.io/posts/quotations)
