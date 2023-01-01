@@ -12,8 +12,7 @@ draft: false
 # とりたい資格
 - 情報処理安全確保支援士
 - TOEIC800点
-- データベーススペシャリスト
-- ネットワークスペシャリスト
+- Certified Ethical Hacker
 - CKAD
 
 # やりたいこと
