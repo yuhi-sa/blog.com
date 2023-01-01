@@ -14,7 +14,7 @@ draft: false
 - 英語
 
 # とりたい資格
-- 情報処理安全確保支援士(2023)
+- 情報処理安全確保支援士(2023)(doing)
 - TOEIC700点(2023)
 - TOEIC800点(2024-5)
 - Certified Kubernetes Application Developer(2024-5) 
@@ -22,9 +22,9 @@ draft: false
 - Certified Information Systems Security Professional
 
 # やりたいこと
-- バーに行く
-- スポーツをする
-- 副業する
+- バーに行く(2023)
+- スポーツをする(2023)
+- 副業する(2024)
 - OSSへのプルリク
 - 記事を書く
 - 本を書く
@@ -34,4 +34,4 @@ draft: false
 - 脱毛(doing)
 - 歯の矯正
 - Aibo
-- リビング(テレビとソファー付き)がある家(2028)
+- リビング(テレビとソファー付き)とアイランドキッチンがある家(2028)
