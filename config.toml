@@ -1,7 +1,7 @@
 baseurl = "https://yuhi-sa.github.io/"
 DefaultContentLanguage = "ja"
 title = "tomato blog"
-theme = "beautifulhugo"
+theme = "tomatohugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
