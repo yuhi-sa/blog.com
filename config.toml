@@ -4,6 +4,7 @@ title = "tomato blog"
 theme = "tomatohugo"
 
 googleAnalytics = "G-LN6QP6VVM3"
+googleAdsense = "ca-pub-3940256099942544"
 
 enableRobotsTXT = true
 
