@@ -1,10 +1,6 @@
 baseurl = "https://yuhi-sa.github.io/"
-DefaultContentLanguage = "ja"
 title = "tomato blog"
 theme = "tomatohugo"
-metaDataFormat = "yaml"
-
-author = false
 
 enableRobotsTXT = true
 
@@ -16,29 +12,13 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-
+DefaultContentLanguage = "ja"
 [languages]
   [languages.ja]
     languageName = "Japanese"
   [languages.en]
     languageName = "English"
 
-[Params]
-  # subtitle = "yuhi-sa"
-  favicon = "img/icon.JPG"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = false
-  comments = true
-  readingTime = false
-  wordCount = false
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-
-[Author]
-  name = "yuhi-sa"
 
 [[menu.main]]
   name = "Blog"
@@ -56,6 +36,6 @@ pygmentsCodefencesGuessSyntax = true
   weight = 3
 
 [[menu.main]]
-  name = "privacy policy"
-  url = "posts/privacy_policy"
-  weight = 4
+name = "privacy policy"
+url = "posts/privacy_policy"
+weight = 6
