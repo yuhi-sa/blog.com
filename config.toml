@@ -1,13 +1,14 @@
+[params]
 # Basig Configuration
 baseurl = "https://yuhi-sa.github.io/"
 title = "tomato blog"
 theme = "tomatohugo"
 
 # Google Analytics Configuration
-GoogleAnalytics = "G-LN6QP6VVM3"
+googleAnalytics = "G-LN6QP6VVM3"
 
 # Google Adsense Configuration
-GoogleAdClientId = "ca-pub-9558545098866170"
+googleAdClientId = "ca-pub-9558545098866170"
 
 # Robots.txt Configuration
 enableRobotsTXT = true
