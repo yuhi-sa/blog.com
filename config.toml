@@ -1,25 +1,17 @@
-[params]
-# Basig Configuration
+
 baseurl = "https://yuhi-sa.github.io/"
 title = "tomato blog"
 theme = "tomatohugo"
 
-# Google Analytics Configuration
 googleAnalytics = "G-LN6QP6VVM3"
 
-# Google Adsense Configuration
-googleAdClientId = "ca-pub-9558545098866170"
-
-# Robots.txt Configuration
 enableRobotsTXT = true
 
-# Code Highlighting Configuration
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-# Lamguage Configuration
 DefaultContentLanguage = "ja"
 [languages]
   [languages.ja]
@@ -27,7 +19,6 @@ DefaultContentLanguage = "ja"
   [languages.en]
     languageName = "English"
 
-# Manu Configuration
 [[menu.main]]
   name = "Blog"
   url = ""
