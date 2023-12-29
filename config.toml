@@ -3,13 +3,19 @@ DefaultContentLanguage = "ja"
 title = "tomato blog"
 theme = "tomatohugo"
 metaDataFormat = "yaml"
+
+author = false
+
+enableRobotsTXT = true
+
+GoogleAnalytics = "G-LN6QP6VVM3"
+GoogleAdClientId = "ca-pub-9558545098866170"
+
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-author = false
-googleAnalytics = "G-LN6QP6VVM3"
-enableRobotsTXT = true
+
 
 [languages]
   [languages.ja]
@@ -19,7 +25,6 @@ enableRobotsTXT = true
 
 [Params]
   # subtitle = "yuhi-sa"
-  # logo = "img/icon.JPG" # Expecting square dimensions
   favicon = "img/icon.JPG"
   dateFormat = "January 2, 2006"
   commit = false
