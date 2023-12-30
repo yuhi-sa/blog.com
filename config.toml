@@ -39,6 +39,6 @@ paginate = 5
   weight = 3
 
 [[menu.main]]
-name = "privacy policy"
+name = "Privacy policy"
 url = "posts/privacy_policy"
 weight = 6
