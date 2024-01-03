@@ -11,3 +11,4 @@ draft: false
 # その他
 - [いいなって思った言葉メモ](https://yuhi-sa.github.io/posts/quotations)
 - [2024年目標](https://yuhi-sa.github.io/posts/todo)
+- [読む予定の本](https://yuhi-sa.github.io/posts/read)
