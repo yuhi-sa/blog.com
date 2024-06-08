@@ -1,5 +1,5 @@
 # Hugoのビルド
-hugo
+hugo --minify
 
 # publicディレクトリに移動して変更をコミット
 cd public
