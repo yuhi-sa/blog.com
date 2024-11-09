@@ -12,7 +12,8 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-paginate = 5
+[pagination]
+pagerSize = 5
 
 [params]
   googleAnalyticsID = "G-LN6QP6VVM3"
@@ -43,3 +44,7 @@ paginate = 5
 name = "Privacy policy"
 url = "posts/privacy_policy"
 weight = 6
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
