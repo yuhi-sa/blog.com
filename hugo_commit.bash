@@ -1,6 +1,7 @@
 # Hugoのキャッシュクリアとビルド
 rm -rf resources/_gen
-hugo --cleanDestinationDir
+# hugo --cleanDestinationDir
+hugo
 
 # publicディレクトリに移動して変更をコミット
 cd public
