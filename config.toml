@@ -13,8 +13,8 @@ uglyURLs = false  # false = pretty URLs (/post/name/), true = ugly URLs (/post/n
 
 # SEO improvements
 [sitemap]
-  changefreq = "weekly"
-  priority = 0.8
+  changefreq = "daily"
+  priority = 0.9
   filename = "sitemap.xml"
 
 # Output formats
