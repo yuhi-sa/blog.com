@@ -1,7 +1,7 @@
 # Hugoのキャッシュクリアとビルド
 rm -rf resources/_gen
 # hugo --cleanDestinationDir
-hugo
+hugo  --minify
 
 # publicディレクトリに移動して変更をコミット
 cd public

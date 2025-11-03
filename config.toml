@@ -1,11 +1,21 @@
 
-baseurl = "https://yuhi-sa.github.io/"
+baseURL = "https://yuhi-sa.github.io/"
 title = "tomato blog"
 theme = "tomatohugo"
 disqusShortname = "yuhu-sa"
 DefaultContentLanguage = "ja"
 
 enableRobotsTXT = true
+enableGitInfo = true
+
+# URL structure settings
+# canonifyURLs = true  # Convert relative URLs to absolute URLs
+
+# SEO improvements
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.8
+  filename = "sitemap.xml"
 
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
