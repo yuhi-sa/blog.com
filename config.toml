@@ -25,7 +25,7 @@ uglyURLs = false  # false = pretty URLs (/post/name/), true = ugly URLs (/post/n
 
 # Syntax highlighting
 [markup.highlight]
-  style = "trac"
+  noClasses = false
   lineNos = true
   codeFences = true
   guessSyntax = true
