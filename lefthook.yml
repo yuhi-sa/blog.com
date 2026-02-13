@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    prettier:
+      glob: "*.{html,css,js,md,json}"
+      run: npx prettier --check {staged_files}
