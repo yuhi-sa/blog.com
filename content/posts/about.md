@@ -107,26 +107,26 @@ description: "都内IT企業で働くソフトウェアエンジニア"
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">2016年4月 〜 2020年3月</div>
-    <div class="timeline-title">広島大学 卒業（学士・工学）</div>
+    <div class="timeline-date">2022年4月 〜 現在</div>
+    <div class="timeline-title">IT企業にてソフトウェアエンジニアとして勤務</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2020年4月 〜 2022年3月</div>
     <div class="timeline-title">奈良先端科学技術大学院大学 修了（修士・工学）</div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">2022年4月 〜 現在</div>
-    <div class="timeline-title">IT企業にてソフトウェアエンジニアとして勤務</div>
+    <div class="timeline-date">2016年4月 〜 2020年3月</div>
+    <div class="timeline-title">広島大学 卒業（学士・工学）</div>
   </div>
 </div>
 
 ## 資格
 
-- CISSP（準会員） - ISC2（2024年）
+- CISSP（準会員）（2024年）
 - 情報処理安全確保支援士試験（2023年）
 - 日商簿記検定2級（2022年）
 - 応用情報技術者試験（2021年）
-- G検定 - JDLA（2020年）
+- G検定（2020年）
 
 ## 技術スタック
 

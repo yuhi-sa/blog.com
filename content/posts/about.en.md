@@ -107,26 +107,26 @@ Working in a cross-service data platform team, developing and operating products
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">Apr 2016 — Mar 2020</div>
-    <div class="timeline-title">Hiroshima University（B.Eng.）</div>
+    <div class="timeline-date">Apr 2022 — Present</div>
+    <div class="timeline-title">Software Engineer @ IT Company, Tokyo</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Apr 2020 — Mar 2022</div>
-    <div class="timeline-title">Nara Institute of Science and Technology（M.Eng.）</div>
+    <div class="timeline-title">Nara Institute of Science and Technology (M.Eng.)</div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">Apr 2022 — Present</div>
-    <div class="timeline-title">Software Engineer @ IT Company, Tokyo</div>
+    <div class="timeline-date">Apr 2016 — Mar 2020</div>
+    <div class="timeline-title">Hiroshima University (B.Eng.)</div>
   </div>
 </div>
 
 ## Certifications
 
-- CISSP Associate - ISC2 (2024)
+- CISSP Associate (2024)
 - Registered Information Security Specialist (2023)
 - Bookkeeping 2nd Grade (2022)
 - Applied Information Technology Engineer (2021)
-- G Certificate - JDLA (2020)
+- G Certificate (2020)
 
 ## Skills
 
