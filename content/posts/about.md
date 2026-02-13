@@ -165,6 +165,8 @@ description: "都内IT企業で働くソフトウェアエンジニア"
     <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?logo=apachehadoop&logoColor=000" alt="Hadoop" />
     <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff" alt="MySQL" />
     <img src="https://img.shields.io/badge/Cassandra-1287B1?logo=apachecassandra&logoColor=fff" alt="Cassandra" />
+    <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff" alt="Redis" />
+    <img src="https://img.shields.io/badge/Athenz-2D72D9?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMzAgMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI1LjUgMTMuN2MtLjYtLjYtMS41LS42LTIuMSAwbC0yLjUgMi41LTQuNS00LjVjLS42LS42LTEuNS0uNi0yLjEgMGwtNS41IDUuNS0yLjUtMi41Yy0uNi0uNi0xLjUtLjYtMi4xIDBsLTUgNSAxLjQgMS40IDMuNi0zLjYgMi41IDIuNSA1LjUtNS41IDQuNSA0LjVjLjYuNiAxLjUuNiAyLjEgMGw1LjUtNS41IDIuNSAyLjVjLjYuNiAxLjUuNiAyLjEgMGw1LTUtMS40LTEuNHoiLz48L3N2Zz4=&logoColor=fff" alt="Athenz" />
   </div>
 </div>
 
