@@ -42,28 +42,41 @@ pagerSize = 5
 [languages]
   [languages.ja]
     languageName = "Japanese"
+    [[languages.ja.menu.main]]
+      name = "Blog"
+      url = "/"
+      weight = 1
+    [[languages.ja.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 2
+    [[languages.ja.menu.main]]
+      name = "About"
+      url = "/posts/about/"
+      weight = 3
+    [[languages.ja.menu.main]]
+      name = "Privacy policy"
+      url = "/posts/privacy_policy/"
+      weight = 6
+
   [languages.en]
     languageName = "English"
-
-[[menu.main]]
-  name = "Blog"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 2
-
-[[menu.main]]
-  name = "About"
-  url = "/posts/about/"
-  weight = 3
-
-[[menu.main]]
-name = "Privacy policy"
-url = "/posts/privacy_policy/"
-weight = 6
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/en/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/en/posts/about/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Privacy policy"
+      url = "/en/posts/privacy_policy/"
+      weight = 6
 
 [taxonomies]
   tag = "tags"
