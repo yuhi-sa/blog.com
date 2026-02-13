@@ -110,6 +110,8 @@ description: "都内IT企業で働くソフトウェアエンジニア"
     <div class="timeline-date">2022年4月 〜 現在</div>
     <div class="timeline-title">IT企業にてソフトウェアエンジニアとして勤務</div>
   </div>
+</div>
+<div class="timeline">
   <div class="timeline-item">
     <div class="timeline-date">2020年4月 〜 2022年3月</div>
     <div class="timeline-title">奈良先端科学技術大学院大学 修了（修士・工学）</div>
