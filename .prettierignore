@@ -3,3 +3,4 @@ resources/
 .hugo_build.lock
 node_modules/
 *.toml
+themes/tomatohugo/layouts/partials/head.html
