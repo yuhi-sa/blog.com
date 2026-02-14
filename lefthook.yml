@@ -2,4 +2,4 @@ pre-commit:
   commands:
     prettier:
       glob: "*.{html,css,js,md,json}"
-      run: npx prettier --check {staged_files}
+      run: npx prettier --write {staged_files} && git add {staged_files}

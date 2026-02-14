@@ -34,8 +34,12 @@ uglyURLs = false  # false = pretty URLs (/post/name/), true = ugly URLs (/post/n
 pagerSize = 5
 
 [params]
-  description = "A personal blog about programming and technology."
+  description = "プログラミング、セキュリティ、AWS、機械学習、制御工学など技術トピックを発信するブログ"
+  tagline = "プログラミング・技術ブログ"
+  favicon = "/favicon.ico"
+  logo = "/ogp.jpeg"
   author = "yuhi-sa"
+  author_url = "https://yuhi-sa.github.io/"
   images = ["https://yuhi-sa.github.io/ogp.jpeg"]
   googleAnalyticsID = "G-LN6QP6VVM3"
   adsenseClientID = "ca-pub-9558545098866170"
