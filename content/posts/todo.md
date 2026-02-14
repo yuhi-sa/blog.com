@@ -2,6 +2,7 @@
 title: "目標"
 date: 2024-01-04T10:10:00+09:00
 draft: false
+noindex: true
 ---
 
 <!--more-->
