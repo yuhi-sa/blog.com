@@ -4,3 +4,5 @@ resources/
 node_modules/
 *.toml
 themes/tomatohugo/layouts/partials/head.html
+themes/tomatohugo/layouts/
+themes/tomatohugo/docs/
