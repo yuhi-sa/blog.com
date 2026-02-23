@@ -106,3 +106,7 @@ pagerSize = 5
     name = "tags"
     weight = 100
     toLower = true
+
+  [[related.indices]]
+    name = "date"
+    weight = 10

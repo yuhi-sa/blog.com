@@ -3,3 +3,7 @@
 node_modules/
 public/
 resources/_gen/
+
+# Secrets / credentials
+.claude/ga4_client_secret.json
+*client_secret*.json
