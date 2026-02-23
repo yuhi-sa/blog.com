@@ -95,3 +95,14 @@ pagerSize = 5
     [markup.goldmark.extensions.passthrough.delimiters]
       block = [["$$", "$$"], ["\\[", "\\]"]]
       inline = [["$", "$"], ["\\(", "\\)"]]
+
+# Related content configuration
+[related]
+  includeNewer = true
+  threshold = 20
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+    toLower = true
