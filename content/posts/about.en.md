@@ -186,6 +186,10 @@ Working in a cross-service data platform team, developing and operating products
   </div>
 </div>
 
+## Others
+
+- [Favorite Quotations](/posts/quotations/)
+
 ## Contact
 
 - [Google Form](https://forms.gle/jVEM3XQQ6jgRwEwv8)

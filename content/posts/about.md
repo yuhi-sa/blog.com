@@ -188,6 +188,10 @@ description: "都内IT企業で働くソフトウェアエンジニア"
   </div>
 </div>
 
+## その他
+
+- [いいなって思った言葉]({{< ref "/posts/Quotations.md" >}})
+
 ## 連絡先
 
 - [Google Form](https://forms.gle/jVEM3XQQ6jgRwEwv8)
