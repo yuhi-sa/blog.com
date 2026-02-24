@@ -31,7 +31,7 @@ uglyURLs = false  # false = pretty URLs (/post/name/), true = ugly URLs (/post/n
   guessSyntax = true
 
 [pagination]
-pagerSize = 5
+pagerSize = 20
 
 [params]
   description = "プログラミング、セキュリティ、AWS、機械学習、制御工学など技術トピックを発信するブログ"
