@@ -60,6 +60,18 @@ pagerSize = 20
       url = "/posts/about/"
       weight = 3
     [[languages.ja.menu.main]]
+      name = "DevToolBox"
+      url = "https://yuhi-sa.github.io/devtoolbox/"
+      weight = 4
+    [[languages.ja.menu.main]]
+      name = "CalcBox"
+      url = "https://yuhi-sa.github.io/calcbox/"
+      weight = 5
+    [[languages.ja.menu.main]]
+      name = "Pomodoro"
+      url = "https://yuhi-sa.github.io/pomodoro/"
+      weight = 5.5
+    [[languages.ja.menu.main]]
       name = "Privacy policy"
       url = "/posts/privacy_policy/"
       weight = 6
@@ -81,6 +93,18 @@ pagerSize = 20
       name = "About"
       url = "/en/posts/about/"
       weight = 3
+    [[languages.en.menu.main]]
+      name = "DevToolBox"
+      url = "https://yuhi-sa.github.io/devtoolbox/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "CalcBox"
+      url = "https://yuhi-sa.github.io/calcbox/"
+      weight = 5
+    [[languages.en.menu.main]]
+      name = "Pomodoro"
+      url = "https://yuhi-sa.github.io/pomodoro/"
+      weight = 5.5
     [[languages.en.menu.main]]
       name = "Privacy policy"
       url = "/en/posts/privacy_policy/"
