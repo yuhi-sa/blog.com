@@ -51,3 +51,11 @@ jobs:
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
           commit_message: "Deploy: ${{ github.sha }}"
+
+      - name: Ping sitemaps to Google
+        if: success()
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://yuhi-sa.github.io/sitemap.xml"
+          curl -s "https://www.google.com/ping?sitemap=https://yuhi-sa.github.io/devtoolbox/sitemap.xml"
+          curl -s "https://www.google.com/ping?sitemap=https://yuhi-sa.github.io/calcbox/sitemap-index.xml"
+          curl -s "https://www.google.com/ping?sitemap=https://yuhi-sa.github.io/pomodoro/sitemap.xml"
