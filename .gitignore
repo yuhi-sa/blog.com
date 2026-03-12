@@ -5,6 +5,7 @@ public/
 resources/_gen/
 
 # Secrets / credentials
+.env
 .claude/ga4_client_secret.json
 *client_secret*.json
 

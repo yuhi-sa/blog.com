@@ -9,6 +9,11 @@ export HOME="/Users/yuhi-sa"
 unset CLAUDECODE
 
 WORKDIR="/Users/yuhi-sa/Hobby/blog.com"
+
+# Load environment variables
+if [ -f "${WORKDIR}/.env" ]; then
+  export $(grep -v '^#' "${WORKDIR}/.env" | xargs)
+fi
 LOGFILE="${WORKDIR}/logs/daily_blog_$(date +%Y%m%d).log"
 
 cd "$WORKDIR"
